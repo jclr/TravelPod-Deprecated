@@ -1,4 +1,6 @@
 Personalsite::Application.routes.draw do
+  resources :trips
+
   resources :users
 
   # The priority is based upon order of creation:
