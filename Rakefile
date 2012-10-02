@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Personalsite::Application.load_tasks
+Travelpod::Application.load_tasks

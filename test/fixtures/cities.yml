@@ -1,13 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  post: MyText
+  name: MyString
   lat: 9.99
   lon: 9.99
-  date: 2012-10-02
 
 two:
-  post: MyText
+  name: MyString
   lat: 9.99
   lon: 9.99
-  date: 2012-10-02

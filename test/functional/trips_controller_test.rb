@@ -18,30 +18,30 @@ class TripsControllerTest < ActionController::TestCase
 
   test "should create trip" do
     assert_difference('Trip.count') do
-      post :create, trip: { date: @trip.date, location: @trip.location }
+      post :create, :trip => { :date => @trip.date, :lat => @trip.lat, :lon => @trip.lon, :post => @trip.post }
     end
 
     assert_redirected_to trip_path(assigns(:trip))
   end
 
   test "should show trip" do
-    get :show, id: @trip
+    get :show, :id => @trip
     assert_response :success
   end
 
   test "should get edit" do
-    get :edit, id: @trip
+    get :edit, :id => @trip
     assert_response :success
   end
 
   test "should update trip" do
-    put :update, id: @trip, trip: { date: @trip.date, location: @trip.location }
+    put :update, :id => @trip, :trip => { :date => @trip.date, :lat => @trip.lat, :lon => @trip.lon, :post => @trip.post }
     assert_redirected_to trip_path(assigns(:trip))
   end
 
   test "should destroy trip" do
     assert_difference('Trip.count', -1) do
-      delete :destroy, id: @trip
+      delete :destroy, :id => @trip
     end
 
     assert_redirected_to trips_path

@@ -1,4 +1,6 @@
-Personalsite::Application.routes.draw do
+Travelpod::Application.routes.draw do
+  resources :cities
+
   resources :trips
 
   resources :users

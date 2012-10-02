@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Personalsite::Application.config.secret_token = '6223492d5ccc57c030ac44379aff34ee3a797df1acc2c291b4ef0a47de17ac85eb428cbcb8ec673af3289f381f0ab19ff261eff17b36e2ca6b207f72965ecd28'
+Travelpod::Application.config.secret_token = '2f4713dc7abee3c3401d8f5ea5b067f7c7d43a868abeaf24d9af71c4193784619144e33cc45e9b1205ec43c5197d9b4d6dfaa523c38f2acc6d6f5e3b0e8a2e69'
